@@ -4,6 +4,8 @@
 #    TAP for Test Anything Protocol (TAP) output
 #    XML for JUnit XML format The case doesn't matter.
 
+CMOCKA_MESSAGE_OUTPUT := XML
+
 all: runtest
 
 main.exe: main.c
